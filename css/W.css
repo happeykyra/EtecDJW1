@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(129, 210, 201);
+    font-family:'Segoe UI', sans-serif;
+    text-align:left
+}
+h1 {
+    color:greenyellow; /* RGB> Red  Green Blue */
+    border: 2px solid #5F9EA0;
+    text-align: center;
+}
+main p {
+    font-weight: bold;
+}
+p{
+    border: 1px solid aliceblue;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+a{
+    text-decoration:none;
+}
+footer{}
+footer a{
+    font-weight: bold; color: aliceblue;
+     border:1px solid #1E90FF;
+}
+main p a:hover{
+    text-decoration: underline;
+}
+*{
+    margin:3;
+}
