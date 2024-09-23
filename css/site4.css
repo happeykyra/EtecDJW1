@@ -82,8 +82,20 @@ article div.img{
     border: 1px solid rgb(46, 161, 56);
 }
 
-#li{
+#l1{
     background-image: url("../img/landscape.jpg");
+    background-size: cover;
+}
+#l2{
+    background-image: url("../img/landscape2.jpg");
+    background-size: cover;
+}
+#l3{
+    background-image: url("../img/landscape3.jpg");
+    background-size: cover;
+}
+#l4{
+    background-image: url("../img/naorture.jpg");
     background-size: cover;
 }
 

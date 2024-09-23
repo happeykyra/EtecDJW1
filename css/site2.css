@@ -81,10 +81,33 @@ article div.img{
     border: 1px solid rgb(46, 161, 56);
 }
 
-#li{
+#l1{
     background-image: url("../img/alien2.jpg");
     background-size: cover;
 }
+#l2{
+    background-image: url("../img/olho alien.jpg");
+    background-size: cover;
+
+}
+#l3{
+    background-image: url("../img/vqrios alien.jpg");
+    background-size: cover;
+
+}
+
+#l4{
+    background-image: url("../img/pisicoalindo.jpg");
+    background-size: cover;
+
+}
+
+#l5{
+    background-image: url("../img/levendoalien.jpg");
+    background-size: cover;
+
+}
+    
 
 footer{
     border: 1px solid;
