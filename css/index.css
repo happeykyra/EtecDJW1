@@ -24,7 +24,7 @@ header h1 {
 main{
     text-align: center;
     color: white;
-    background-color: blck;
+    background-color: black;
 
 }
 main #principal{
@@ -35,10 +35,16 @@ main #principal{
 }
 
 main #principal div{
+<<<<<<< HEAD
 background-color:rgba(0, 0, 0, 0.506);
 max-width: 100%;
 margin:0,auto
 }
+=======
+background-color: black
+max-width: 100%;
+margin: 0, auto;
+>>>>>>> 680204a628219fffee766c5d2ed8729d36b39a51
 
 main #principal{
     width: 100% ;
