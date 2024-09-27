@@ -33,14 +33,15 @@ main{
 main #principal{
     width: 100% ;
     height: 400px;
-    background-image: url(../img/foto-g.jpg);
+    background-image: url(../img/emocat.jpg);
+    background-size:cover;
     background-position: center;
     text-align: ;
     padding-top: 200px;
 }
 
 main #principal div{
-background-color:rgba(95, 158, 160, 0.506);
+background-color:rgba(0, 0, 0, 0.506);
 color: ;
 max-width: 50%;
 margin:0 auto;
