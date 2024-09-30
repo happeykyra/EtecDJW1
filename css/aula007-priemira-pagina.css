@@ -61,34 +61,6 @@ main #principal p{
 
 }
 
-main #artigos{
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-main article{
-    display: inline-block;
-    border: 1px solid rgba(154, 131, 29, 0.506);
-    border-radius: 9px;
-    margin-top: 20px;
-    box-shadow: 3px 3px 8px rgba(154, 131, 29, 0.506);
-    background-color: ;
-
-}
-
-article div.img{
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    border-radius: 8px 8px 0;
-    border: 1px solid cadetblue;
-}
-
-#li{
-    background-image: url("../img/foto-g.jpg");
-    background-size: cover;
-}
-
 footer{
     border: 1px solid;
     color: white;
