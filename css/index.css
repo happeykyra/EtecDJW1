@@ -4,7 +4,7 @@
 
 a{
     text-decoration: none;
-    color:cadetblue;
+    color:rgb(255, 255, 255);
 }
 
 header{
@@ -27,65 +27,7 @@ main{
     background-color: black;
 
 }
-main #principal{
-    width: 100% ;
-    height: 400px;
-    background-position: center;
-    padding-top: 200px;
-}
 
-main #principal div{
-background-color:rgba(169, 140, 21, 0.683);
-max-width: 100%;
-margin:0,auto
-}
-main #artigos{
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-main article{
-    display: inline-block;
-    border: 1px solid rgba(154, 131, 29, 0.506);
-    border-radius: 9px;
-    margin-top: 20px;
-    box-shadow: 3px 3px 8px rgba(154, 131, 29, 0.506);
-    background-color: ;
-
-}
-
-article div.img{
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    border-radius: 8px 8px 0;
-    border: 1px solid cadetblue;
-}
-#li{
-    background-image: url("../img/foto-g.jpg");
-    background-size: cover;
-}
-
-main #principal{
-    width: 100% ;
-    height: 400px;
-    background-image: url(../img/foto-g.jpg);
-    background-size:cover;
-    background-position: center;
-    text-align: ;
-    padding-top: 200px;
-}
-
-main #principal h1{
-    font-size: 25px;
-    text-align: left;
-
-}
-
-main #principal p{
-    font-size:20px;
-
-}
 
 footer{
     border: 1px solid;
@@ -117,7 +59,4 @@ header ul li a:hover{
     background-color:white;
     color:black
 
-}
-main #foto{
-    max-width:3px; width: auto;
 }

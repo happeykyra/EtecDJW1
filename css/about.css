@@ -1,0 +1,26 @@
+section {
+
+max-width: 1200px;
+margin: 10px auto 0;
+background-color:rgb(99, 3, 1000);
+
+}
+header ul{
+    list-style-type:none;
+    margin-top: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color:rgb(99, 3,1000) ;
+    color:white
+
+}
