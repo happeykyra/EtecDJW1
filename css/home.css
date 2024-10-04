@@ -22,12 +22,11 @@ main article{
     display: inline-block;
     flex-basis: 375px;
     flex-grow: 1;
-    margin: 10px
+    margin: 10px;
     border: 1px solid rgba(154, 131, 29, 0.506);
     border-radius: 8px;
-    box-shadow: 3px 3px 8px rgba(154, 131, 29, 0.506);
-
-}
+    box-shadow: 3px, 3px, 8px rgba(154, 131, 29, 0.506);
+}   
 
 article div.img{
     width: 100%;
@@ -59,7 +58,7 @@ main #principal{
     background-image: url(../img/foto-g.jpg);
     background-size:cover;
     background-position: center;
-    text-align: ;
+
     padding-top: 200px;
 }
 

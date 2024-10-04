@@ -37,13 +37,11 @@ main #principal{
     background-size:cover;
     background-position: center;
     background-size: cover;
-    text-align: ;
     padding-top: 200px;
 }
 
 main #principal div{
 background-color:rgba(154, 131, 29, 0.506);
-color: ;
 max-width: 50%;
 margin:0 auto;
 

@@ -3,11 +3,23 @@ section {
 max-width: 1200px;
 margin: 10px auto 0;
 background-color:rgb(99, 3, 1000);
-
+padding: 20px;
 }
 
+section h1{
+    text-align: center;
+    font-size: 35px;
+    color:white;
+    margin-bottom: 30px;
 
-
+}
+section img{
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    float: left;
+    
+}
 
 
 
