@@ -15,9 +15,10 @@ main #artigos{
     max-width: 500px;
     margin:  auto;
     font-size: 15px;
-    flex-basis: 375px;
-    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 main article{
     display: inline-block;
     flex-basis: 375px;

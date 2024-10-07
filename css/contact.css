@@ -1,0 +1,64 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+
+section{
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color:0 ;
+    padding: 40px;
+}
+section h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: 0;
+    font-weight: lighter;
+}
+
+form{
+    display: flex;
+   flex-direction: column;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    display: block;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #777;
+    color: rgba(104, 1, 1, 0.894);
+}
+
+textarea{
+    height: 100px;
+}
+
+button{
+    background-color:rgba(104, 1, 1, 0.894);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold ;
+}
+
+section{
+    color: rgba(149, 27, 27, 0.894);
+    margin: 10px 0;
+}
+
+#privacidade{
+    color:rgba(104, 1, 1, 0.894);
+    font-size: 12px;
+    margin-top: 50px;
+}
+

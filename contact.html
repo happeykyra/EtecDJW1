@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira Página</title>
+    <title>contact</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header>
@@ -13,14 +14,37 @@
             <h3>Kyra e Sofia</h3>
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">SOBRE</a></li>
-                <li><a href="contact.html">CONTATO</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
         </header>
     <main>
         <section>
+            <h1>Our localization</h1>
 
+            <p>Avenida vermelha s/n- Cratera marrom Norte</p>
+            <p>Planeta Marte</p>
+            <p>CEP 4398562</p>
+            
+            <h2>Social media</h2>
+            <p id="privacidade"><a href="#">&copy; 20777 Política de privacidade de Cratera Marrom Norte</a></p>
+        </section>
+        <section>
+            <h1>Contact us</h1>
+            <form action="">
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="Name" required>
+
+                <label for="fone">Cellphone</label>
+                <input type="tel" name="fone" id="fone" required> 
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <textarea name="msg" id="msg" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <footer>

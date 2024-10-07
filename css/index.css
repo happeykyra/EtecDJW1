@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -8,9 +10,7 @@ a{
 }
 
 header{
-    color:white;
-    border: 1px solid;
-    
+    color:white;    
     padding: 10px;
     max-width:1200px ;
     margin: 0px auto;
