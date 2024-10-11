@@ -1,0 +1,14 @@
+<h1> Cadastre-se</h1>
+<form action="">
+
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id="Nome required>
+
+        <label for="Telefone">Telefone</label>
+        <input type="tel" name="Telefone" id="Telefone" required>
+
+        <label for="E-mail">Email</label>
+        <input type="email" name="E-mail" id="E-mail" required>
+
+        <button type="submit">Cadastrar</button>
+</form>
