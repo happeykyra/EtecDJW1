@@ -4,23 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>template</title>
+    <link rel="shortcut icon" href="img/mars.png" type="img/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>something</h1>
+            <h1>tabeles</h1>
             <h3>Kyra e Sofia</h3>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../about.html">ABOUT</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
             </ul>
         </nav>
         </header>
     <main>
-        <section>
+        <style>
+        #t1{
+            border: 3px solid gray ;
+            width: 80%;
+            margin: 30px auto 30px;
+            font-size: 20px;
+            border-collapse: collapse;
+        }
 
+        #t1 td{
+            background-color: rgb(28, 28, 28);
+            border: 1px solid white;
+            padding: 5px;
+        }
+        #t1 #cabeçalho td{
+            background-color: rgb(21, 21, 21);
+            color: rgba(81, 160, 199, 0.712);
+            font-weight: bold;
+            text-align: center;
+        }
+        /* Tabela Quadrada Simples*/
+        #t2{
+            border: 3px solid rgb(12, 26, 21);
+            border-collapse: collapse;
+            margin: 30px auto;
+        }
+
+        #t2 td{
+            background-color: rgb(24, 56, 45);
+            border: 1px solid rgb(12, 26, 21);
+            min-width: 100px;
+            height: 100px;
+            font-style:inherit;
+        }
+
+        #t2 #cabecalho td{
+            background-color: rgb(44, 129, 81);
+            font-weight: bold;
+            text-align: center;
+            border: 3px solid rgb(12, 26, 21);
+        }
+
+        /*tabela mesclagem*/
+
+        #t3{
+            border: 5px solid rgba(25, 94, 59, 0.859);
+            border-collapse: collapse;
+            margin: 30px auto;
+            width: 100%;
+            font-size: 25px;
+        }
+        #t3 td{
+            padding: 10px;
+            background-color: lightblue;
+            border: 3px solid rgba(25, 94, 59, 0.859);
+        }
+
+    </style>
+        <section>
+            <h1>Tabela de línguas</h1>
+            <table id="t1">
+                <tr id="cabeçalho">
+                    <td>algo</td>
+                    <td>poético</td>
+                    <td>careca</td>
+                </tr>
+                <tr>
+                    <td>something</td>
+                    <td>poetic</td>
+                    <td>bald</td>
+                </tr>
+                <tr>
+                    <td>algo
+                    <td>poético
+                    <td>calvo
+                </tr>
+                <tr>
+                    <td>quelque chose</td>
+                    <td>poétique</td>
+                    <td>chauve</td>
+                </tr>
+                <tr>
+                    <td>무엇</td>
+                    <td>시적인</td>
+                    <td>노골적인</td>
+                </tr>
+                <tr>
+                    <td>что-нибудь</td>
+                    <td>поэтический</td>
+                    <td>лысый</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1>tabel asimples quadrada</h1>
+            <table id="t2">
+                <tr id="cabecalho">
+                    <td>amphibios</td>
+                    <td>mamiferos</td>
+                    <td>répiteis</td>
+                </tr>
+                <tr>
+                    <td>frog</td>
+                    <td>perry  o ornitorrinco</td>
+                    <td>gecko</td>
+                </tr>
+                <tr>
+                    <td>axolot</td>
+                    <td>capibara</td>
+                    <td>crocodile</td>
+                </tr>
+                <tr>
+                    <td>labirintodonte</td>
+                    <td>elephant</td>
+                    <td>lizard</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h1> tabela com células mescladas</h1>
+                <table id="t3">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                </table>            
         </section>
     </main>
     <footer>
@@ -28,3 +162,6 @@
     </footer>
 </body>
 </html>
+
+
+
