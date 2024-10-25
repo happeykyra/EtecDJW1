@@ -71,6 +71,16 @@
             width: 100%;
             font-size: 25px;
         }
+
+        #t3 th{
+            padding: 10px;
+            background-color: aquamarine;
+            color: rgb(34, 90, 111);
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid rgb(34, 90, 111);
+        }
+
         #t3 td{
             padding: 10px;
             background-color: lightblue;
@@ -142,18 +152,40 @@
         <section>
             <h1> tabela com células mescladas</h1>
                 <table id="t3">
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                    </tr>
+                    <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th></th>
+                                <th colspan="2">Idade</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="4">Kyra e Sofia</td>
+                                    <td>6</td>
+                                    <td>13</td>
+                                    <td>Instituto da Casinha</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>9</td>
+                                    <td>14</td>
+                                    <td>Instituto Paraná</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>8</td>
+                                    <td>13</td>
+                                    <td>Instituto SP</td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td>9</td>
+                                    <td>15</td>
+                                    <td>instituto silva</td>
+                                </tr>
+                            </tbody>
+                    </thead>
+                    
                 </table>            
         </section>
     </main>
