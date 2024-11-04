@@ -87,6 +87,40 @@
             border: 3px solid rgba(25, 94, 59, 0.859);
         }
 
+        /*Tabela completa*/
+        .t3 {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 20px;
+            margin: 30px auto;
+        }
+        .t3 caption{
+            font-size: 25px;
+            font-style: italic;
+            color: rgb(246, 255, 0);
+            background-color: rgb(58, 147, 2);
+        }
+        .t3 tr{
+            border-top: 1px solid green ;
+            background-color: lightgoldenrodyellow;
+            color: rgb(78, 145, 232)
+        }
+        .t3 td{
+            padding: 10px;
+        }
+        .t3 th{
+            background-color: rgb(0, 255, 68);
+            font-weight: bold;
+            color: yellow;
+            padding: 10px;
+
+        }
+        .t3 tr:nth-child(2n){
+            background-color: rgb(151, 218, 242);
+        }
+
+
+        
     </style>
         <section>
             <h1>Tabela de línguas</h1>
@@ -162,7 +196,7 @@
                             </tr>
                             <tbody>
                                 <tr>
-                                    <td rowspan="4">meninas</td>
+                                    <td rowspan="4">Meninas</td>
                                     <td>Kyra</td>
                                     <td>O mistério do relógio na parede</td>
                                     <td>Jumanji</td>
@@ -222,11 +256,98 @@
                                   <td>filme</td>
                                  <td>10</td>
                                     <td>10</td>
-                  </td>
+                  </tr>
                             </tbody>
                     </thead>
                     
                 </table>            
+        </section>
+        <section>
+            <h1>Tabela completa</h1>
+            <table class="t3">
+                <caption>Tabela das unidades federativas do Brasil</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Estado</th>
+                        <th>Sigla</th>
+                        <th>População</th>
+                        <th>Capital</th>
+                        <th>Região</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/Bandeira_do_Paraná.svg.png" alt=""></td>
+                        <td>Paraná</td>
+                        <td>PR</td>
+                        <td>10mi</td>
+                        <td>Curitiba</td>
+                        <td>Sul</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt=""></td>
+                        <td>Rio de Janeiro</td>
+                        <td>RJ</td>
+                        <td>17mi</td>
+                        <td>Rio de Janeiro</td>
+                        <td rowspan="2"> Sudeste</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""></td>
+                        <td>São Paulo </td>
+                        <td>SP</td>
+                        <td>46mi</td>
+                        <td>São Paulo</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_Amazonas.svg.png" alt=""></td>
+                        <td>Amazonas</td>
+                        <td>AM</td>
+                        <td>4mi</td>
+                        <td>Manaus</td>
+                        <td>Norte</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_da_Bahia.svg.png" alt=""></td>
+                        <td>Bahia</td>
+                        <td>BA</td>
+                        <td>14mi</td>
+                        <td>Salvador</td>
+                        <td rowspan="3">Nordeste</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_de_Alagoas.svg.png" alt=""></td>
+                        <td>Alagoas</td>
+                        <td>AL</td>
+                        <td>3mi</td>
+                        <td>Maceió</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_de_Sergipe.svg.png" alt=""></td>
+                        <td>Sergipe</td>
+                        <td>SE</td>
+                        <td>3mi</td>
+                        <td>Aracaju</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/Flag_of_Goiás.svg.png" alt="Bandeira do estado de Goiás"></td>
+                        <td>Goiás</td>
+                        <td>GO</td>
+                        <td>3mi</td>
+                        <td>Goiânia</td>
+                        <td>Centro-oeste</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Unidades Federativas do Brasil</th>
+                        <td colspan="2">Fonte: Google</td>
+                    </tr>
+                </tfoot>
+            </table>
         </section>
     </main>
     <footer>
