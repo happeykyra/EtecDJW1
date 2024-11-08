@@ -20,6 +20,93 @@
         </nav>
         </header>
     <main>
+        <section>
+            <h1>Tabela completa</h1>
+            <table class="t3">
+                <caption>Tabela das unidades federativas do Brasil</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Estado</th>
+                        <th>Sigla</th>
+                        <th>População</th>
+                        <th>Capital</th>
+                        <th>Região</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/Bandeira_do_Paraná.svg.png" alt="Bandeira do Paraná"></td>
+                        <td>Paraná</td>
+                        <td>PR</td>
+                        <td>10mi</td>
+                        <td>Curitiba</td>
+                        <td>Sul</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="Bandeira do Rio de Janeiro"></td>
+                        <td>Rio de Janeiro</td>
+                        <td>RJ</td>
+                        <td class="populoso">17mi</td>
+                        <td>Rio de Janeiro</td>
+                        <td rowspan="2"> Sudeste</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_estado_de_São_Paulo.svg.webp" alt="Bandeira de São Paulo"></td>
+                        <td >São Paulo </td>
+                        <td>SP</td>
+                        <td class="populoso">46mi</td>
+                        <td>São Paulo</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_do_Amazonas.svg.png" alt="Bandeira do Amazonas"></td>
+                        <td>Amazonas</td>
+                        <td>AM</td>
+                        <td>4mi</td>
+                        <td>Manaus</td>
+                        <td>Norte</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_da_Bahia.svg.png" alt="Bandeira da Bahia"></td>
+                        <td>Bahia</td>
+                        <td>BA</td>
+                        <td class="populoso">14mi</td>
+                        <td>Salvador</td>
+                        <td rowspan="3">Nordeste</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_de_Alagoas.svg.png" alt="Bandeira de Alagoas"></td>
+                        <td>Alagoas</td>
+                        <td>AL</td>
+                        <td>3mi</td>
+                        <td>Maceió</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Bandeira_de_Sergipe.svg.png" alt="Bandeira do Sergipe"></td>
+                        <td>Sergipe</td>
+                        <td>SE</td>
+                        <td>3mi</td>
+                        <td>Aracaju</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/Flag_of_Goiás.svg.png" alt="Bandeira do estado de Goiás"></td>
+                        <td>Goiás</td>
+                        <td>GO</td>
+                        <td>3mi</td>
+                        <td>Goiânia</td>
+                        <td>Centro-oeste</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Unidades Federativas do Brasil</th>
+                        <td colspan="2">Fonte: Google</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
         <style>
         #t1{
             border: 3px solid gray ;
@@ -93,8 +180,15 @@
             width: 50%;
             font-size: 20px;
             margin: 30px auto;
-            
+
+            position: relative;
         }
+        .t3 thead > tr > th {
+            position:sticky;
+            top: -1px;
+
+        }
+
         .t3 caption{
             font-size: 25px;
             font-style: italic;
@@ -143,6 +237,7 @@
 
             }
     </style>
+    
         <section>
             <h1>Tabela de línguas</h1>
             <table id="t1">
@@ -283,93 +378,7 @@
                     
                 </table>            
         </section>
-        <section>
-            <h1>Tabela completa</h1>
-            <table class="t3">
-                <caption>Tabela das unidades federativas do Brasil</caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Estado</th>
-                        <th>Sigla</th>
-                        <th>População</th>
-                        <th>Capital</th>
-                        <th>Região</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="img/Bandeira_do_Paraná.svg.png" alt="Bandeira do Paraná"></td>
-                        <td>Paraná</td>
-                        <td>PR</td>
-                        <td>10mi</td>
-                        <td>Curitiba</td>
-                        <td>Sul</td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="Bandeira do Rio de Janeiro"></td>
-                        <td>Rio de Janeiro</td>
-                        <td>RJ</td>
-                        <td class="populoso">17mi</td>
-                        <td>Rio de Janeiro</td>
-                        <td rowspan="2"> Sudeste</td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_do_estado_de_São_Paulo.svg.webp" alt="Bandeira de São Paulo"></td>
-                        <td >São Paulo </td>
-                        <td>SP</td>
-                        <td class="populoso">46mi</td>
-                        <td>São Paulo</td>
-                        
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_do_Amazonas.svg.png" alt="Bandeira do Amazonas"></td>
-                        <td>Amazonas</td>
-                        <td>AM</td>
-                        <td>4mi</td>
-                        <td>Manaus</td>
-                        <td>Norte</td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_da_Bahia.svg.png" alt="Bandeira da Bahia"></td>
-                        <td>Bahia</td>
-                        <td>BA</td>
-                        <td class="populoso">14mi</td>
-                        <td>Salvador</td>
-                        <td rowspan="3">Nordeste</td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_de_Alagoas.svg.png" alt="Bandeira de Alagoas"></td>
-                        <td>Alagoas</td>
-                        <td>AL</td>
-                        <td>3mi</td>
-                        <td>Maceió</td>
-                    </tr>
-                    <tr>
-                        <td><img src="img/Bandeira_de_Sergipe.svg.png" alt="Bandeira do Sergipe"></td>
-                        <td>Sergipe</td>
-                        <td>SE</td>
-                        <td>3mi</td>
-                        <td>Aracaju</td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="img/Flag_of_Goiás.svg.png" alt="Bandeira do estado de Goiás"></td>
-                        <td>Goiás</td>
-                        <td>GO</td>
-                        <td>3mi</td>
-                        <td>Goiânia</td>
-                        <td>Centro-oeste</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th colspan="4">Unidades Federativas do Brasil</th>
-                        <td colspan="2">Fonte: Google</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </section>
+       
     </main>
     <footer>
         <p>&copy; 2024-?? <a href="https://doodles.google" target="blank">tudi.net</a></p>
